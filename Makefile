@@ -2,8 +2,7 @@ HC = ghc
 
 
 targets = \
-	monad
-	# state \
+	state
 
 
 all : $(targets)

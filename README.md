@@ -9,12 +9,19 @@
 - Typeclass
   - [Functional dependency](https://wiki.haskell.org/Functional_dependencies)
 - Maybe 
+- Alternative
 - Either
 - Functor
 - Applicative
 - Semigroup
 - Monoid
 - Monad
+- MonadZero
+- MonadPlus
+- MonadFail
+- MonadFix
+- MonadMask
+- Contravariant
 - Reader Monad
 - Writer Monad
 - Monad Transformer
@@ -27,6 +34,9 @@
 
 - elem
 - flip
+- guard
+- asum
+- msum
 
 ### References
 

@@ -2,10 +2,13 @@ HC = ghc
 
 
 targets = \
-	state
+	state \
+	array \
+	monad \
+	monadfail
 
 
-all : $(targets)
+all: $(targets)
 
 
 $(targets): %: %.hs

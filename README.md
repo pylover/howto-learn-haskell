@@ -11,6 +11,8 @@
 - Maybe 
 - Alternative
 - Either
+- Traversable
+- Foldable
 - Functor
 - Applicative
 - Semigroup
@@ -30,6 +32,7 @@
 - MonadState
 - A.Array
 
+
 ### Functions
 
 - elem
@@ -37,6 +40,8 @@
 - guard
 - asum
 - msum
+- sequence
+
 
 ### References
 

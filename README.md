@@ -31,7 +31,7 @@
 - Identity
 - MonadState
 - A.Array
-
+- Arrow
 
 ### Functions
 

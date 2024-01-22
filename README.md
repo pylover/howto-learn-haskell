@@ -15,7 +15,7 @@
 - Applicative
 - Semigroup
 - Monoid
-- Monad
+- Monad (do, return, when)
 - MonadZero
 - MonadPlus
 - MonadFail

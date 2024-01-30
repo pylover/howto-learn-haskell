@@ -32,6 +32,9 @@
 - MonadState
 - A.Array
 - Arrow
+- ViewPattern
+- IORef
+
 
 ### Functions
 
@@ -41,7 +44,7 @@
 - asum
 - msum
 - sequence
-
+- mzero
 
 ### References
 

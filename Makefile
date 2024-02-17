@@ -5,7 +5,8 @@ targets = \
 	state \
 	array \
 	monad \
-	monadfail
+	monadfail \
+	transformer
 
 
 all: $(targets)

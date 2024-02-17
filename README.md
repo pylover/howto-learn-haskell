@@ -5,6 +5,7 @@
 
 ### Concepts
 
+- import qualified
 - forall
 - Typeclass
   - [Functional dependency](https://wiki.haskell.org/Functional_dependencies)
@@ -39,6 +40,8 @@
 - TypeOperators
 - Cons
 - Enum
+- Exception 
+- Erro
 
 ### Functions
 
@@ -53,8 +56,9 @@
 ### Extensions
 
 - `{-# LANGUAGE OverloadedStrings #-}`
--
-
+- TemplateHaskell
+- QuasiQuotes
+- DataKinds
 
 ### References
 

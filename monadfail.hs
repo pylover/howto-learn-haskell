@@ -4,6 +4,9 @@ module Main where
 import Control.Monad
 
 
+data Foo = Foo {getFoo :: Int} | Bar {getBar :: Int}
+
+
 foo :: IO Int
 foo = return 3
 

@@ -4,14 +4,20 @@ module Main where
 import Control.Monad
 
 
-data Foo = Foo {getFoo :: Int} | Bar {getBar :: Int}
+foo :: Maybe Int
+-- foo = Just 2
+foo = Nothing
 
 
-foo :: IO Int
-foo = return 3
+bar :: Int -> Maybe String
+bar x = Just . show $ x
 
+
+baz :: Maybe String
+baz = do
+  ~x <- foo
+  bar x
 
 main :: IO ()
 main = do
-  "3" <- liftM show foo
-  putStrLn $ "Hello: " ++ show 3
+  putStrLn $ "Hello: " ++ show baz

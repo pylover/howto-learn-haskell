@@ -4,24 +4,24 @@
 ## Must Know
 
 ### Concepts
++ Maybe 
++ Alternative
++ Either
++ Traversable
++ Foldable
++ import qualified
++ Functor
++ Semigroup
++ Applicative
++ Monoid
++ Monad (do, return, when) https://wiki.haskell.org/All_About_Monads#The_monad_laws
++ MonadFail
 
-- import qualified
 - forall
 - Typeclass
   - [Functional dependency](https://wiki.haskell.org/Functional_dependencies)
-- Maybe 
-- Alternative
-- Either
-- Traversable
-- Foldable
-- Functor
-- Applicative
-- Semigroup
-- Monoid
-- Monad (do, return, when) https://wiki.haskell.org/All_About_Monads#The_monad_laws
 - MonadZero
 - MonadPlus
-- MonadFail
 - MonadFix
 - MonadMask
 - Contravariant

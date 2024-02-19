@@ -14,7 +14,7 @@
 + Semigroup
 + Applicative
 + Monoid
-+ Monad (do, return, when) https://wiki.haskell.org/All_About_Monads#The_monad_laws
++ [Monad](https://wiki.haskell.org/All_About_Monads#The_monad_laws)
 + MonadFail
 
 - forall

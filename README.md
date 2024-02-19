@@ -1,4 +1,4 @@
-# How to lean Haskell
+# How to learn Haskell
 
 
 ## Must Know

@@ -1,4 +1,5 @@
 HC = ghc
+HCFLAGS = -XArrows
 
 
 targets = \
@@ -6,6 +7,7 @@ targets = \
 	array \
 	monad \
 	monadfail \
+	arrow \
 	transformer
 
 
@@ -13,7 +15,7 @@ all: $(targets)
 
 
 $(targets): %: %.hs
-	$(HC) -o $@ $<
+	$(HC) $(HCFLAGS) -o $@ $<
 
 
 clean:

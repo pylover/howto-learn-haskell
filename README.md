@@ -16,7 +16,14 @@
 + Monoid
 + [Monad](https://wiki.haskell.org/All_About_Monads#The_monad_laws)
 + MonadFail
++ Arrow
+  + https://en.wikibooks.org/wiki/Haskell/Understanding_arrows
+  + https://wiki.haskell.org/Arrow_tutorial
+  + https://www.haskell.org/arrows/
+  + https://en.wikibooks.org/wiki/Haskell/Arrow_tutorial
+  + https://marketsplash.com/tutorials/haskell/haskell-arrows/
 
+- Kleisly
 - forall
 - Typeclass
   - [Functional dependency](https://wiki.haskell.org/Functional_dependencies)
@@ -32,7 +39,6 @@
 - Identity
 - MonadState
 - A.Array
-- Arrow
 - ViewPattern
 - IORef
 - ByteString

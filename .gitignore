@@ -3,6 +3,7 @@
 *.hi
 
 monad
+arrow
 state
 array
 monadfail
